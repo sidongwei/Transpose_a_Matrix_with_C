@@ -24,7 +24,6 @@ int main()
             printf("Matrix too large");
             return -1;
     }
-    int transpose[n][m];
 
     printf("\nStart input:\n");
     for(i=0; i<m; ++i)
@@ -42,6 +41,7 @@ int main()
             if (j == n-1) printf("\n");
         }
 
+    int transpose[n][m];
     for(i=0; i<m; ++i)
         for(j=0; j<n; ++j)
         {
